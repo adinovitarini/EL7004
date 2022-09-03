@@ -20,7 +20,7 @@ tTemp(:,:,3) = [ones(1,5);
       ones(1,5);
       [1 zeros(1,4)];
       ones(1,5)];
-%%  Parse the input data into a series (fail)
+%%  Parse the input data into a series
 m_row = size(p,1);
 n_col = size(p,2);
 inp = zeros((m_row*n_col),1);
