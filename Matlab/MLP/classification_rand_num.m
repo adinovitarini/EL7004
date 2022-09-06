@@ -1,4 +1,5 @@
 clear all;clc
+tic
 %define the input using random number between 0 and 1 
 p = randi([0 1],6,5);
 %define the target class 
